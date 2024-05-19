@@ -1,0 +1,1 @@
+Predicting multiple diseases such as Parkinson's, diabetes, and heart disease using machine learning involves several steps, including data collection, preprocessing, model selection, training, evaluation, and deployment. 
