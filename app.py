@@ -25,8 +25,8 @@ with st.sidebar:
     selected = option_menu('Multiple Disease Prediction System',
 
                            ['Diabetes Prediction',
-                            'Heart Disease Prediction',
-                            'Parkinsons Prediction'],
+                            'Heart Disease Prediction'
+                            ],
                            menu_icon='hospital-fill',
                            icons=['activity', 'heart', 'person'],
                            default_index=0)
@@ -155,10 +155,10 @@ if selected == 'Heart Disease Prediction':
     st.success(heart_diagnosis)
 
 # Parkinson's Prediction Page
-if selected == "Parkinsons Prediction":
+'''if selected == "Parkinsons Prediction":
 
     # page title
-    st.title("Parkinson's Disease Prediction using ML")
+   st.title("Parkinson's Disease Prediction using ML")
 
     col1, col2, col3, col4, col5 = st.columns(5)
 
@@ -247,4 +247,4 @@ if selected == "Parkinsons Prediction":
         else:
             parkinsons_diagnosis = "The person does not have Parkinson's disease"
 
-    st.success(parkinsons_diagnosis)
+    st.success(parkinsons_diagnosis)'''
